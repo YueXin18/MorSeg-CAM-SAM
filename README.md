@@ -14,7 +14,7 @@ We propose a novel weakly supervised breast lesion segmentation framework compri
    Run `fusion.py` to implement information fusion and lesion region synthesis.
 4. SAM-Optimized lesion segmentation
 
-   `segment-anything-main`contains code to enhance the segmentation results after fusion. ·sam-point.py` implements optimisation of the segmentation results after region synthesis using point cues. `sam.py` implements optimisationn of the segmentation results after region synthesis using box cues.
+   `segment-anything-main`contains code to enhance the segmentation results after fusion. `sam-point.py` implements optimisation of the segmentation results after region synthesis using point cues. `sam.py` implements optimisationn of the segmentation results after region synthesis using box cues.
 5. post-processing
 
    Run `post-processing.py`,the hole regions of the results after SAM segmentation will be filled.
